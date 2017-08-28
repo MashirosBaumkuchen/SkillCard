@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:clipChildren="false"
+    android:layerType="software"
+    android:orientation="vertical"
+    tools:context=".view.SkillCardActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="68dp">
+
+        <ImageView
+            android:id="@+id/image_close_skill_page"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:src="@mipmap/phone_play_btn_close_pre" />
+
+        <TextView
+            android:id="@+id/text_point_count"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="12"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@mipmap/phone_play_icon_skillpoint_medium"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/text_point_count"
+            android:layout_toStartOf="@+id/text_point_count"
+            android:layout_marginRight="6dp"
+            android:layout_marginEnd="6dp" />
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="408dp"
+        android:layout_gravity="center_horizontal" />
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/skill_card_tab"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:tabIndicatorHeight="3dp"
+        app:tabIndicatorColor="@color/colorPrimary"/>
+
+</LinearLayout>
