@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/SkillCard-master.iml" filepath="$PROJECT_DIR$/SkillCard-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/SkillCardDemo.iml" filepath="$PROJECT_DIR$/SkillCardDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/SkillCardDemo.iml" filepath="$PROJECT_DIR$/SkillCardDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+>>>>>>> df5ae217b169450a96555e63e4169362bf437660
     </modules>
   </component>
 </project>
